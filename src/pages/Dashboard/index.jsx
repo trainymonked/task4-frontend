@@ -38,7 +38,7 @@ export default function Dashboard() {
 
     useEffect(() => {
         getUsers()
-    }, [getUsers])
+    }, [])
 
     useEffect(() => {
         setRows(users)

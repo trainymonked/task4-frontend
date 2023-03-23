@@ -25,7 +25,7 @@ function App() {
                 }
             }
         })()
-    }, [getUser, setUser, tokenCheck])
+    }, [])
 
     return (
         <BrowserRouter>
